@@ -50,7 +50,7 @@ table {
 
 body {
     background-color: #F4D04E;
-    height: 100dvh;
+    min-height: 100dvh;
     display: flex;
     flex-direction: column;
     font-family: "Figtree", sans-serif;
@@ -63,7 +63,7 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 384px;
-    max-height: 522px;
+    /* max-height: 522px; */
     margin-inline: auto;
     margin-block: auto;
     background-color: white;
@@ -146,8 +146,8 @@ body {
 }
 
 .author-avatar {
-    max-width: 32px;
-    max-height: 32px;
+    width: 32px;
+    height: 32px;
 }
 
 .author-name {
@@ -157,19 +157,10 @@ body {
 }
 
 
-/* attribution */
-.attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
 
 
-  @media (max-width: 430px) {
+  @media (max-width: 375px) {
     body {
-        padding: 0 24px;
+        padding: 0 20px;
     }
-
 }
