@@ -48,7 +48,7 @@ table {
 /* main css */
 
 
-body {
+main {
     background-color: #F4D04E;
     min-height: 100dvh;
     display: flex;
@@ -160,7 +160,7 @@ body {
 
 
   @media (max-width: 375px) {
-    body {
+    main {
         padding: 0 20px;
     }
 }
